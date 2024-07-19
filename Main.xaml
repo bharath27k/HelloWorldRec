@@ -78,8 +78,8 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,118.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;REC&quot;]" />
-    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,124" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="CSE" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="354,118.66666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;REC  new&quot;]" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,124" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="CSE Student" />
     <Delay Duration="00:00:00.2000000" sap:VirtualizedContainerService.HintSize="354,114.66666666666667" sap2010:WorkflowViewState.IdRef="Delay_2" />
   </Sequence>
 </Activity>
